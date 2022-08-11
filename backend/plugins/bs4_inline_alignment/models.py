@@ -48,15 +48,15 @@ class InlineAlignmentModel(CMSPlugin):
     def get_classes(self):
         values = []
         if self.alignment:
-            values.append("text-{}".format(self.alignment))
+            values.append(f"text-{self.alignment}")
         if self.alignment_sm:
-            values.append("text-sm-{}".format(self.alignment_sm))
+            values.append(f"text-sm-{self.alignment_sm}")
         if self.alignment_md:
-            values.append("text-md-{}".format(self.alignment_md))
+            values.append(f"text-md-{self.alignment_md}")
         if self.alignment_lg:
-            values.append("text-lg-{}".format(self.alignment_lg))
+            values.append(f"text-lg-{self.alignment_lg}")
         if self.alignment_xl:
-            values.append("text-xl-{}".format(self.alignment_xl))
+            values.append(f"text-xl-{self.alignment_xl}")
         return values
 
     def get_classes_string(self):

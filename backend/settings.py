@@ -639,15 +639,14 @@ ALDRYN_SSO_LOGIN_WHITE_LIST = []  # https://docs.divio.com/en/latest/reference/a
 ALDRYN_SSO_LOGIN_URL_PREFIX = 'divio'
 SSO_DSN = env.str('SSO_DSN', default=None)
 
-ALDRYN_SSO_ENABLE_LOCALDEV = False
-if DJANGO_ENV == DjangoEnv.LOCAL:
-    ALDRYN_SSO_ENABLE_LOCALDEV = True
-
-ALDRYN_SSO_ALWAYS_REQUIRE_LOGIN = False
-if (DJANGO_ENV == DjangoEnv.TEST and env.bool('ALDRYN_SSO_ALWAYS_REQUIRE_LOGIN', default=True)) \
-        or env.bool('ALDRYN_SSO_ALWAYS_REQUIRE_LOGIN', default=False):
-    # stage servers must always be protected, live servers only if env var is explicitely set
-    ALDRYN_SSO_ALWAYS_REQUIRE_LOGIN = True
+ALDRYN_SSO_ENABLE_LOCALDEV = DJANGO_ENV == DjangoEnv.LOCAL
+ALDRYN_SSO_ALWAYS_REQUIRE_LOGIN = bool(
+    (
+        DJANGO_ENV == DjangoEnv.TEST
+        and env.bool('ALDRYN_SSO_ALWAYS_REQUIRE_LOGIN', default=True)
+    )
+    or env.bool('ALDRYN_SSO_ALWAYS_REQUIRE_LOGIN', default=False)
+)
 
 if ALDRYN_SSO_ALWAYS_REQUIRE_LOGIN:
     # apparently the middleware is not checking ALDRYN_SSO_ALWAYS_REQUIRE_LOGIN
