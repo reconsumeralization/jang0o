@@ -9,7 +9,7 @@
         "@babel/core": "^7.15.0",
         "@fortawesome/fontawesome-free": "^5.0.0",
         "@sentry/browser": "^6.0.0",
-        "@types/bootstrap": "^4.6.0",
+        "@types/bootstrap": "^4.6.2",
         "@types/jquery": "^3.0.0",
         "@vue/cli": "^4.5.13",
         "autoprefixer": "^10.0.0",
