@@ -36,7 +36,4 @@ class FloatModel(CMSPlugin):
     margin_left = models.PositiveIntegerField(default=0)
 
     def __str__(self):
-        return "float-{}{}".format(
-            self.float_breakpoint,
-            self.float_direction,
-        )
+        return f"float-{self.float_breakpoint}{self.float_direction}"
