@@ -11,7 +11,7 @@
         "@sentry/browser": "^6.0.0",
         "@types/bootstrap": "^4.6.0",
         "@types/jquery": "^3.0.0",
-        "@vue/cli": "^4.5.13",
+        "@vue/cli": "^4.5.19",
         "autoprefixer": "^10.0.0",
         "bootstrap": "^4.6.0",
         "css-loader": "^6.2.0",
