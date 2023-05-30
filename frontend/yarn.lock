@@ -1346,10 +1346,10 @@
     "@types/connect" "*"
     "@types/node" "*"
 
-"@types/bootstrap@^4.6.0":
-  version "4.6.0"
-  resolved "https://registry.yarnpkg.com/@types/bootstrap/-/bootstrap-4.6.0.tgz#ed7199081947f68d4b37700f8b0a662bd9af622d"
-  integrity sha512-uf3yXgYm9bUGGIKNoXHrBzbmXtm8QEM9dDwI+EDarocllEMBx7f3Mv5yCEj4OqkLihkhGlEzT9L1TlZ5IN793g==
+"@types/bootstrap@^4.6.2":
+  version "4.6.2"
+  resolved "https://registry.yarnpkg.com/@types/bootstrap/-/bootstrap-4.6.2.tgz#84d4dd3ee41e903c7bc17e47b9997ec804d8d64e"
+  integrity sha512-HbqVAre9VMZF8KBw1UpmBkw0xt4rjrAxMO/JWqFfJZGbVi09t8BVccvB/VxDlygVvvu0BZkAU8ocfNc7/jlFsA==
   dependencies:
     "@types/jquery" "*"
     popper.js "^1.14.1"
