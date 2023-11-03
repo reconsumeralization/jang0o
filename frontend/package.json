@@ -13,7 +13,7 @@
         "@types/jquery": "^3.0.0",
         "@vue/cli": "^4.5.13",
         "autoprefixer": "^10.0.0",
-        "bootstrap": "^4.6.0",
+        "bootstrap": "^4.6.2",
         "css-loader": "^6.2.0",
         "file-loader": "^6.2.0",
         "image-webpack-loader": "^7.0.1",
