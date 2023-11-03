@@ -7,7 +7,7 @@
     },
     "dependencies": {
         "@babel/core": "^7.15.0",
-        "@fortawesome/fontawesome-free": "^5.0.0",
+        "@fortawesome/fontawesome-free": "^5.15.4",
         "@sentry/browser": "^6.0.0",
         "@types/bootstrap": "^4.6.0",
         "@types/jquery": "^3.0.0",
