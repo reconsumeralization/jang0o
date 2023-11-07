@@ -1483,10 +1483,17 @@
     "@types/through" "*"
     rxjs "^6.4.0"
 
-"@types/jquery@*", "@types/jquery@^3.0.0":
+"@types/jquery@*":
   version "3.5.5"
   resolved "https://registry.yarnpkg.com/@types/jquery/-/jquery-3.5.5.tgz#2c63f47c9c8d96693d272f5453602afd8338c903"
   integrity sha512-6RXU9Xzpc6vxNrS6FPPapN1SxSHgQ336WC6Jj/N8q30OiaBZ00l1GBgeP7usjVZPivSkGUfL1z/WW6TX989M+w==
+  dependencies:
+    "@types/sizzle" "*"
+
+"@types/jquery@^3.5.26":
+  version "3.5.26"
+  resolved "https://registry.yarnpkg.com/@types/jquery/-/jquery-3.5.26.tgz#af9e5bf442b2ed813eb6a73c06c714621f68e9de"
+  integrity sha512-wWYf2NBI6b+1RPQY86B74HSgZNsLAUtr4eFlGQoOQPJw/B3mCMfwWCflZWQ7OKtAB18MJCcYpL6+0NZbMIXl5g==
   dependencies:
     "@types/sizzle" "*"
 
