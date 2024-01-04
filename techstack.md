@@ -1,7 +1,8 @@
 <!--
---- Readme.md Snippet without images Start ---
+&lt;--- Readme.md Snippet without images Start ---&gt;
 ## Tech Stack
 reconsumeralization/jang0o is built on the following main stack:
+
 - [Sentry](https://sentry.io/welcome/?utm_source=stackshare&utm_medium=link&utm_campaign=profile) – Exception Monitoring
 - [Python](https://www.python.org) – Languages
 - [Node.js](http://nodejs.org/) – Frameworks (Full Stack)
@@ -22,11 +23,13 @@ reconsumeralization/jang0o is built on the following main stack:
 - [Docker](https://www.docker.com/) – Virtual Machine Platforms & Containers
 
 Full tech stack [here](/techstack.md)
---- Readme.md Snippet without images End ---
 
---- Readme.md Snippet with images Start ---
+&lt;--- Readme.md Snippet without images End ---&gt;
+
+&lt;--- Readme.md Snippet with images Start ---&gt;
 ## Tech Stack
 reconsumeralization/jang0o is built on the following main stack:
+
 - <img width='25' height='25' src='https://img.stackshare.io/service/191/default_9262326592c97828a2a4299dec085a3674dd05f4.png' alt='Sentry'/> [Sentry](https://sentry.io/welcome/?utm_source=stackshare&utm_medium=link&utm_campaign=profile) – Exception Monitoring
 - <img width='25' height='25' src='https://img.stackshare.io/service/993/pUBY5pVj.png' alt='Python'/> [Python](https://www.python.org) – Languages
 - <img width='25' height='25' src='https://img.stackshare.io/service/1011/n1JRsFeB_400x400.png' alt='Node.js'/> [Node.js](http://nodejs.org/) – Frameworks (Full Stack)
@@ -47,14 +50,15 @@ reconsumeralization/jang0o is built on the following main stack:
 - <img width='25' height='25' src='https://img.stackshare.io/service/586/n4u37v9t_400x400.png' alt='Docker'/> [Docker](https://www.docker.com/) – Virtual Machine Platforms & Containers
 
 Full tech stack [here](/techstack.md)
---- Readme.md Snippet with images End ---
+
+&lt;--- Readme.md Snippet with images End ---&gt;
 -->
 <div align="center">
 
 # Tech Stack File
 ![](https://img.stackshare.io/repo.svg "repo") [reconsumeralization/jang0o](https://github.com/reconsumeralization/jang0o)![](https://img.stackshare.io/public_badge.svg "public")
 <br/><br/>
-|46<br/>Tools used|11/09/23 <br/>Report generated|
+|46<br/>Tools used|01/04/24 <br/>Report generated|
 |------|------|
 </div>
 
@@ -284,10 +288,10 @@ Full tech stack [here](/techstack.md)
 
 |NAME|VERSION|LAST UPDATED|LAST UPDATED BY|LICENSE|VULNERABILITIES|
 |:------|:------|:------|:------|:------|:------|
-|[boto3](https://pypi.org/boto3)|v1.20.46|08/11/22|reconsumeralization |Apache-2.0|N/A|
-|[python-dotenv](https://pypi.org/python-dotenv)|v0.19.2|08/11/22|reconsumeralization |BSD-3-Clause|N/A|
+|[boto3](https://pypi.org/project/boto3)|v1.20.46|08/11/22|reconsumeralization |Apache-2.0|N/A|
+|[python-dotenv](https://pypi.org/project/python-dotenv)|v0.19.2|08/11/22|reconsumeralization |BSD-3-Clause|N/A|
 
 <br/>
 <div align='center'>
 
-Generated via [Stack File](https://github.com/apps/stack-file)
+Generated via [Stack File](https://github.com/marketplace/stack-file)
